@@ -69,7 +69,16 @@ input {
   flex-direction: column;
 
   .balance {
-    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: .9em;
+    display: inline-flex;
+    margin-top: 10px;
+    padding: 0.75rem;
+    background-color: #f4f6f8;
+  }
+  
+  .address {
     letter-spacing: 1px;
     font-weight: 400;
     font-size: .9em;
